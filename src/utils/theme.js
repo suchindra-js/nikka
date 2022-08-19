@@ -1,6 +1,15 @@
 import { createTheme } from "@mui/material/styles";
 
 export const theme = createTheme({
+  components: {
+    MuiCssBaseline: {
+      styleOverrides: (themeParam) => `
+      * {
+        background-color: ${themeParam.palette.secondary.light}
+      }
+      `
+    }
+  },
  palette: {
    primary: {
      main: "#508991",
@@ -17,4 +26,9 @@ export const theme = createTheme({
     main: "#508991"
    }
  },
+ typography: {
+  fontFamily: [
+    'Blinker', 'inter'
+  ].join(','),
+ }
 });

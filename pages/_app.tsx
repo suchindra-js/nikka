@@ -2,7 +2,9 @@ import type { AppProps } from "next/app";
 import { ThemeProvider } from "@mui/material";
 import { theme } from "@utils/theme";
 import createEmotionCache from "@utils/createEmotionCache";
+import CssBaseline from "@mui/material/CssBaseline";
 import { CacheProvider } from "@emotion/react";
+require("typeface-blinker");
 
 interface Props extends AppProps {
   emotionCache: any;
@@ -18,6 +20,7 @@ function MyApp({
   return (
     <CacheProvider value={emotionCache}>
       <ThemeProvider theme={theme}>
+        <CssBaseline />
         <Component {...pageProps} />
       </ThemeProvider>
     </CacheProvider>

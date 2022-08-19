@@ -15,6 +15,7 @@ const Home: NextPage = () => {
   return (
     <Box sx={{ width: 200 }}>
       <Stack spacing={2} direction="row" sx={{ mb: 1 }} alignItems="center">
+        <h1>Weather App</h1>
         <VolumeDown />
         <Slider aria-label="Volume" value={value} onChange={handleChange} />
         <VolumeUp />

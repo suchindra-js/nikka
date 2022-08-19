@@ -2393,6 +2393,11 @@
   "resolved" "https://registry.npmjs.org/type-fest/-/type-fest-0.20.2.tgz"
   "version" "0.20.2"
 
+"typeface-blinker@^1.1.13":
+  "integrity" "sha512-a+QJJHuSx+ijZpI7g5vPNCTEqT9GxO8he8332rnAnLz7J56AYiQrP0tXm4ebIT1sx1aQ3iMKn/n69NlmE3YITA=="
+  "resolved" "https://registry.npmjs.org/typeface-blinker/-/typeface-blinker-1.1.13.tgz"
+  "version" "1.1.13"
+
 "typescript@>=2.8.0 || >= 3.2.0-dev || >= 3.3.0-dev || >= 3.4.0-dev || >= 3.5.0-dev || >= 3.6.0-dev || >= 3.6.0-beta || >= 3.7.0-dev || >= 3.7.0-beta", "typescript@>=3.3.1", "typescript@4.7.4":
   "integrity" "sha512-C0WQT0gezHuw6AdY1M2jxUO83Rjf0HP7Sk1DtXj6j1EwkQNZrHAg2XPWlq62oqEhYvONq5pkC2Y9oPljWToLmQ=="
   "resolved" "https://registry.npmjs.org/typescript/-/typescript-4.7.4.tgz"
