@@ -4,7 +4,7 @@ export const theme = createTheme({
   components: {
     MuiCssBaseline: {
       styleOverrides: (themeParam) => `
-      * {
+      body {
         background-color: ${themeParam.palette.secondary.light}
       }
       `

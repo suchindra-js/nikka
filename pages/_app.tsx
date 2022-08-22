@@ -5,6 +5,7 @@ import createEmotionCache from "@utils/createEmotionCache";
 import CssBaseline from "@mui/material/CssBaseline";
 import { CacheProvider } from "@emotion/react";
 require("typeface-blinker");
+import "tailwindcss/tailwind.css";
 
 interface Props extends AppProps {
   emotionCache: any;
