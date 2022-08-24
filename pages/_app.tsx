@@ -4,6 +4,7 @@ import { theme } from "@utils/theme";
 import createEmotionCache from "@utils/createEmotionCache";
 import CssBaseline from "@mui/material/CssBaseline";
 import { CacheProvider } from "@emotion/react";
+import Layout from "@components/layout/Layout";
 require("typeface-blinker");
 import "tailwindcss/tailwind.css";
 
@@ -22,7 +23,9 @@ function MyApp({
     <CacheProvider value={emotionCache}>
       <ThemeProvider theme={theme}>
         <CssBaseline />
-        <Component {...pageProps} />
+        <Layout>
+          <Component {...pageProps} />
+        </Layout>
       </ThemeProvider>
     </CacheProvider>
   );

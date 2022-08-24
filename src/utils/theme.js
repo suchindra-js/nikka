@@ -5,26 +5,18 @@ export const theme = createTheme({
     MuiCssBaseline: {
       styleOverrides: (themeParam) => `
       body {
-        background-color: ${themeParam.palette.secondary.light}
+        background-color: #ffffff
       }
       `
     }
   },
  palette: {
    primary: {
-     main: "#508991",
-     dark: "#172A3A"
+     main: "#ffd500",
    },
    secondary: {
-    main: "#EAEAEA",
-    light: "#FDFDFF"
+    main: "#000000"
    },
-   error: {
-    main: "#F4E7E1"
-   }, 
-   success: {
-    main: "#508991"
-   }
  },
  typography: {
   fontFamily: [
