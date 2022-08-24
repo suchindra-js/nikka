@@ -34,10 +34,6 @@ export default function Registration(): JSX.Element {
     location: "",
   };
 
-  const handleSubmit = ({ values: any }) => {
-    console.log(values);
-  };
-
   return (
     <Box
       className="h-[100vh] flex justify-center items-center flex-col bg-[#faf9f2]"

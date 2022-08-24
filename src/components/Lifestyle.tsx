@@ -18,7 +18,9 @@ import {
 } from "@mui/material";
 import Image from "next/image";
 import logo from "../../public/assets/nikka_logo.png";
+// @ts-ignore
 import SwipeableViews from "react-swipeable-views";
+// @ts-ignore
 import { autoPlay } from "react-swipeable-views-utils";
 import { useState } from "react";
 

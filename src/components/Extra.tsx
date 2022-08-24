@@ -20,14 +20,10 @@ import {
 } from "@mui/material";
 import Image from "next/image";
 import logo from "../../public/assets/nikka_logo.png";
-import SwipeableViews from "react-swipeable-views";
-import { autoPlay } from "react-swipeable-views-utils";
 import { useState } from "react";
 import { Splide, SplideSlide } from "@splidejs/react-splide";
 import "@splidejs/react-splide/css";
 import { ClassNames } from "@emotion/react";
-
-const AutoPlaySwipeableViews = autoPlay(SwipeableViews);
 
 const images = [
   {
